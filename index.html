@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Juan's Rock, Paper, Scissors</title>
+    <link href="style.css" rel="stylesheet" />
+    <link href="favicon.ico" rel="icon" />
+</head>
+<body>
+    <h1>Make A Move!</h1>
+    <h2>Rules</h2>
+    <h3>Rock beats Scissors</h3>
+    <h3>Paper beats Rock</h3>
+    <h3 class="rule3">Scissors beats Paper</h3>
+
+    <div class="choices">
+        <button class="choice1" data-selection="rock"><img src="rock.png" class="pic" /><strong>Rock</strong></button>
+        <button class="choice2" data-selection="paper"><img src="paper2.png" class="pic" /><strong>Paper</strong></button>
+        <button class="choice3" data-selection="scissors"><img src="scissors.png" class="pic" /><strong>Scissors</strong></button>
+    </div>
+    <div class="reset-btn">
+        <button class="reset" data-reset>RESET</button>
+    </div>
+    <div class="results">
+        <div>
+            You:
+            <span class="result-score" data-your-score>0</span>
+        </div>
+        <div data-final-column>
+            Computer:
+            <span class="result-score" data-computer-score>0</span>
+        </div>
+    </div>
+
+    <div class="result-selection winner">Rock</div>
+    <div class="result-selection winner">Paper</div>
+    <div class="result-selection winner">Scissors</div>
+
+
+    <a href="https://github.com/Jbenitez0"><img src="github.png" alt="github-img" class="github"/></a>
+    <script src="main.js"></script>
+</body>
+
+</html>
